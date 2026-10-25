@@ -1,0 +1,12 @@
+{
+  "source": "https://archive.ics.uci.edu/dataset/352/online+retail",
+  "download": "https://archive.ics.uci.edu/static/public/352/online+retail.zip",
+  "archive_sha256": "f5385cbb54bbebf7196389109c6b0621faab0c304e3702548165e71c84aede8b",
+  "raw_rows": 541909,
+  "clean_rows": 391150,
+  "users": 4334,
+  "items": 3659,
+  "unique_pairs": 266221,
+  "start": "2010-12-01 08:26:00",
+  "end": "2011-12-09 12:50:00"
+}

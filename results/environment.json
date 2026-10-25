@@ -1,0 +1,15 @@
+{
+  "python": "3.12.15 (main, Sep 30 2026, 22:04:19) [Clang 21.0.0 (clang-2100.3.34.2)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "seed": 42,
+  "threads": 1,
+  "packages": {
+    "numpy": "2.3.5",
+    "scipy": "1.16.3",
+    "pandas": "2.2.3",
+    "torch": "2.7.1",
+    "matplotlib": "3.10.3",
+    "nbformat": "5.10.4",
+    "nbclient": "0.10.2"
+  }
+}

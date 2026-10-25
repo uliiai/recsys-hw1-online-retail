@@ -1,0 +1,32 @@
+{
+  "train_end": "2011-09-01 00:00:00",
+  "validation_end": "2011-10-15 00:00:00",
+  "validation": {
+    "future_unique_pairs": 55936,
+    "cold_user_pairs": 13889,
+    "cold_item_pairs": 3772,
+    "known_pairs_excluded": 14829,
+    "eligible_users": 1129,
+    "relevant_pairs": 23985,
+    "catalog_items": 3388,
+    "minimum_history": 5
+  },
+  "test": {
+    "future_unique_pairs": 87269,
+    "cold_user_pairs": 18958,
+    "cold_item_pairs": 3575,
+    "known_pairs_excluded": 24581,
+    "eligible_users": 1587,
+    "relevant_pairs": 40289,
+    "catalog_items": 3556,
+    "minimum_history": 5
+  },
+  "k": 10,
+  "primary_metric": "NDCG@10",
+  "final_train_rows": 284834,
+  "final_train_shape": [
+    3783,
+    3556
+  ],
+  "final_train_unique_pairs": 203533
+}

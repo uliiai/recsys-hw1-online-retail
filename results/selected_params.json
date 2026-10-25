@@ -1,0 +1,35 @@
+{
+  "ItemKNN": {
+    "neighbors": 40,
+    "shrink": 50.0
+  },
+  "iALS": {
+    "factors": 32,
+    "alpha": 10.0,
+    "reg": 1.0,
+    "iterations": 12,
+    "seed": 42
+  },
+  "EASE": {
+    "reg": 1000.0
+  },
+  "FM": {
+    "factors": 32,
+    "lr": 0.01,
+    "epochs": 6,
+    "negatives": 3,
+    "batch_size": 4096,
+    "weight_decay": 1e-05,
+    "metadata": true,
+    "seed": 42
+  },
+  "RF-iALS": {
+    "factors": 32,
+    "alpha": 10.0,
+    "reg": 1.0,
+    "iterations": 12,
+    "seed": 42,
+    "half_life": 180.0,
+    "frequency_scale": 2.0
+  }
+}

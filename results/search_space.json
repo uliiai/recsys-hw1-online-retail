@@ -1,0 +1,132 @@
+{
+  "ItemKNN": [
+    {
+      "neighbors": 40,
+      "shrink": 10.0
+    },
+    {
+      "neighbors": 40,
+      "shrink": 50.0
+    },
+    {
+      "neighbors": 100,
+      "shrink": 10.0
+    },
+    {
+      "neighbors": 100,
+      "shrink": 50.0
+    }
+  ],
+  "iALS": [
+    {
+      "factors": 16,
+      "alpha": 10.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 16,
+      "alpha": 40.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "alpha": 10.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "alpha": 40.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42
+    }
+  ],
+  "EASE": [
+    {
+      "reg": 50.0
+    },
+    {
+      "reg": 200.0
+    },
+    {
+      "reg": 1000.0
+    }
+  ],
+  "FM": [
+    {
+      "factors": 16,
+      "lr": 0.003,
+      "epochs": 6,
+      "negatives": 3,
+      "batch_size": 4096,
+      "weight_decay": 1e-05,
+      "metadata": true,
+      "seed": 42
+    },
+    {
+      "factors": 16,
+      "lr": 0.01,
+      "epochs": 6,
+      "negatives": 3,
+      "batch_size": 4096,
+      "weight_decay": 1e-05,
+      "metadata": true,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "lr": 0.003,
+      "epochs": 6,
+      "negatives": 3,
+      "batch_size": 4096,
+      "weight_decay": 1e-05,
+      "metadata": true,
+      "seed": 42
+    },
+    {
+      "factors": 32,
+      "lr": 0.01,
+      "epochs": 6,
+      "negatives": 3,
+      "batch_size": 4096,
+      "weight_decay": 1e-05,
+      "metadata": true,
+      "seed": 42
+    }
+  ],
+  "RF-iALS": [
+    {
+      "factors": 32,
+      "alpha": 10.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42,
+      "half_life": 30.0,
+      "frequency_scale": 2.0
+    },
+    {
+      "factors": 32,
+      "alpha": 10.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42,
+      "half_life": 90.0,
+      "frequency_scale": 2.0
+    },
+    {
+      "factors": 32,
+      "alpha": 10.0,
+      "reg": 1.0,
+      "iterations": 12,
+      "seed": 42,
+      "half_life": 180.0,
+      "frequency_scale": 2.0
+    }
+  ]
+}
